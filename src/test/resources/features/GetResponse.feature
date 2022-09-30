@@ -5,7 +5,7 @@ Feature: Get response from headers
     When User get reponse
       | username                    | password    |
       | buiduythanh270801@gmail.com | Thanh270801 |
-    Then User get data "<abc>","<xyz>"
+    Then User get data "<data1>","<data2>"
     Examples:
-      | abc | xyz |
+      | data1 | data2 |
       | 123 | 456 |

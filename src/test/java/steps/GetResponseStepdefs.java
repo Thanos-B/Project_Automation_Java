@@ -55,7 +55,7 @@ public class GetResponseStepdefs {
 
     @Then("User get data {string},{string}")
     public void userGetData(String abc, String xyz) {
-        System.out.println("abc"+abc);
-        System.out.println("xyz"+xyz);
+        System.out.println("data 1"+abc);
+        System.out.println("data 2"+xyz);
     }
 }
